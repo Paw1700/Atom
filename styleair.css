@@ -894,10 +894,12 @@ td {padding: 5px;
 
 table {border: 1.5px solid white;}
 
-.zamow {font-size: 280%;}
+.zamow {font-size: 310%;}
 
 .zamuw {margin-bottom: 6%;
-        font-size: 90%;}
+        font-size: 80%;
+        position: relative;
+        left: 5%;}
 
 a.zamow_a {padding: 15px;
            font-size: 55%;
