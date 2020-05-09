@@ -1,0 +1,29 @@
+body {font-family: 'Muli', sans-serif;
+      -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */}
+
+.opis {margin-left:5%;
+       margin-right:5%;}
+	   
+.laptop {float: right;
+         width: 50%;}
+
+.jaki_laptop {margin-left:5%;
+              margin-right:5%;
+			  float: left;}
+			  
+.jaki {}
+
+.test {float: left;
+       width:40%;
+	   margin-top: 5%;}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+	   

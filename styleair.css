@@ -1,0 +1,1059 @@
+body {background-color:#5EA1FF;
+      color: white;
+      font-family: 'Muli', sans-serif;
+      margin: 0px 0px;
+       -webkit-animation: fadein 1.2s;}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+#cointainer {width: 100%;}
+
+#head {clear: both;}
+
+.airzdj {width: 75%;
+         margin-left: 12.5%;
+         margin-right: 12.5%;
+         clear: both;}
+
+#tresc {margin-left: 5%;
+        margin-right: 5%;}
+
+#tresc2 {margin-left: 2%;
+         margin-right: 2%;
+         margin-top: 2%;}
+
+#tresc3 {margin-left: 5%;
+         margin-right: 5%;
+         margin-top: 3%;}
+
+#tresc4 {margin-left: 2%;
+         margin-right: 2%;
+         margin-top: 2%;}
+
+#pasek {background-color: white;
+        width: 95%;
+        position: relative;
+        left: 2.5%;
+        border: 2px solid white;}
+
+#version {text-align: center;
+          margin-bottom: 1%;
+          margin-top: 1%;
+          font-size: small;}
+
+.version_a {text-decoration: none;
+            color: white;
+            opacity: 0.25;
+            transition-duration: 0.25s;}
+
+.version_a:hover {opacity: 1;}
+
+table {border: 2px solid white;
+       width: 100%;}
+
+td {border: 2px groove white;}
+
+.K4K {display: flow-root;
+      clear: both;}
+
+.netflix {display: flow-root;
+         clear: both;
+         margin-top: 2%;}
+
+.bateria {display: flow-root;
+          clear: both;
+          margin-top: 2%;}
+
+.zamow {display: flow-root;
+        clear: both;}
+
+.zamuw {float: left;}
+
+a.zamow_a {float: right;
+           border: 2px solid white;
+           text-decoration: none;
+           color: white;
+           transition-duration: 0.3s;}
+
+a.zamow_a:hover {background-color: white;
+                 color: black;}
+                
+.dlaczego_zamow {display: flow-root;
+                 margin-left: 3%;
+                 margin-right: 3%;
+                 margin-top: 3%;}
+
+.dostawa {clear: both;
+          display: flow-root;}
+
+.tytul_dostawa {float: left;}
+
+.logo_dostawa {float: right;}
+
+.opis_dostawa {float: left;}
+
+.gwarancja {clear: both;
+            display: flow-root;
+            margin-top: 2%;}
+
+.tytul_gwarancja {float: left;}
+
+.logo_gwarancja {float: right;}
+
+.opis_gwarancja {float: left;
+                 width: 85%;
+                 margin-top: 1%;}
+
+.test2 {text-decoration: none;
+        color: #5EA1FF;
+        transition-duration: 0.2s;}
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) /* 4K DONE */
+{
+.logoatom {width: 25%;
+           float: left;}
+
+.napis {float: left;
+        position: absolute;
+        left: 38%;
+        top: 190px;
+        font-size: 900%;}
+
+.opis_air {font-size: 430%;
+           margin-top: 2.5%;}
+
+.tytul_4K {float: left;
+           font-size: 250%;
+           margin-top: 1%;}
+
+.logo_4K {width: 240px;
+          float: right;
+          position: relative;
+          top: 45px;}
+
+.opis_4K {float: left;
+          width: 83%;
+          margin-top: 1%;
+          font-size: 130%;}
+
+.netflix {margin-top: 0px;}
+
+.tytul_netflix {float: left;
+                font-size: 250%;
+                margin-top: 2%;}
+
+.logo_netflix {width: 360px;
+               float: right;
+               position: relative;
+               top: 60px;
+               left: 60px;}
+
+.opis_netflix {float: left;
+               width: 77%;
+               margin-top: 1%;
+               font-size: 130%;}
+
+.tytul_bateria {float: left;
+                font-size: 250%;}
+
+.logo_bateria {width: 220px;
+               position: relative;
+               float: right;
+               top: 15px;}
+
+.opis_bateria {float: left;
+               width: 85%;
+               margin-top: 1%;
+               font-size: 130%;}
+
+td {padding: 25px;}
+
+table {font-size: 200%;}
+
+.zamuw {font-size: 600%;}
+
+a.zamow_a {padding: 40px;
+           font-size: 65px;
+           border-radius: 200px;}
+
+.tytul_dostawa {font-size: 350%;}
+
+.logo_dostawa {width: 340px;
+               position: relative;
+               left: 25px;
+               top: -30px;}
+
+.opis_dostawa {width: 80%;
+               margin-top: 1%;
+               font-size: 200%;}
+
+.gwarancja {margin-top: 1%;}
+
+.tytul_gwarancja {font-size: 350%;}
+
+.logo_gwarancja {width: 275px;
+                 position: relative;
+                 top: -30px;}
+
+.opis_gwarancja {float: left;
+                 margin-top: 1%;
+                 font-size: 200%;}
+
+#pasek {height: 65px;
+        border-radius: 200px;
+        margin-top: 4%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: larger;}
+
+.pasek1 {position: relative;
+         top: 20px;}
+
+.test2:hover {font-size: large;
+               color: black;}
+}
+
+@media screen and (min-width: 1920px) and (max-width: 1920px) /* DESKTOP FULL HD DONE */
+{
+.logoatom {width: 25%;
+           float: left;}
+
+.napis {float: left;
+        position: absolute;
+        left: 36%;
+        top: 110px;
+        font-size: 800%;}
+
+.opis_air {font-size: 330%;
+           margin-top: 3%;}
+
+.tytul_4K {float: left;
+           font-size: 250%;
+           margin-top: 2%;}
+
+.logo_4K {width: 240px;
+          float: right;
+          position: relative;
+          top: 60px;}
+
+.opis_4K {float: left;
+          width: 83%;
+          margin-top: 1%;
+          font-size: 130%;}
+
+.netflix {margin-top: 0px;}
+
+.tytul_netflix {float: left;
+                font-size: 250%;
+                margin-top: 2%;}
+
+.logo_netflix {width: 360px;
+               float: right;
+               position: relative;
+               top: 43px;
+               left: 65px;}
+
+.opis_netflix {float: left;
+               width: 77%;
+               margin-top: 1%;
+               font-size: 130%;}
+
+.tytul_bateria {float: left;
+                font-size: 250%;}
+
+.logo_bateria {width: 220px;
+               position: relative;
+               float: right;
+               top: 5px;}
+
+.opis_bateria {float: left;
+               width: 85%;
+               margin-top: 1%;
+               font-size: 130%;}
+
+td {padding: 15px;}
+
+.zamuw {font-size: 450%;}
+
+a.zamow_a {padding: 25px;
+           font-size: 50px;
+           border-radius: 200px;}
+
+.tytul_dostawa {font-size: 300%;}
+
+.logo_dostawa {width: 300px;
+               position: relative;
+               left: 3%;
+               top: -30px;}
+
+.opis_dostawa {width: 80%;
+               margin-top: 1%;
+               font-size: 150%;}
+
+.gwarancja {margin-top: 1%;}
+
+.tytul_gwarancja {font-size: 300%;}
+
+.logo_gwarancja {width: 230px;
+                 position: relative;
+                 top: -30px;}
+
+.opis_gwarancja {float: left;
+                 width: 80%;
+                 margin-top: 1%;
+                 font-size: 150%;}
+
+#pasek {height: 50px;
+        border-radius: 200px;
+        margin-top: 4%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: larger;}
+
+.pasek1 {position: relative;
+         top: 15px;}
+
+.test2:hover {font-size: large;
+               color: black;}
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) /* LAPTOP L  DEAFAULT DONE */
+{
+.logoatom {width: 25%;
+           float: left;}
+
+.napis {float: left;
+        position: absolute;
+        left: 38%;
+        top: 100px;
+        font-size: 500%;}
+
+.opis_air {font-size: 250%;
+           margin-top: 3%;}
+
+.tytul_4K {float: left;
+           font-size: 200%;
+           margin-top: 2%;}
+
+.logo_4K {width: 160px;
+          float: right;
+          position: relative;
+          top: 45px;}
+
+.opis_4K {float: left;
+          width: 84%;
+          margin-top: 1%;}
+
+.tytul_netflix {float: left;
+                font-size: 200%;}
+
+.logo_netflix {width: 260px;
+               float: right;
+               position: relative;
+               top: 25px;
+               left: -3px;}
+
+.opis_netflix {float: left;
+               width: 77%;
+               margin-top: 1%;}
+
+.tytul_bateria {float: left;
+                font-size: 200%;}
+
+.logo_bateria {width: 160px;
+               position: relative;
+               float: right;
+               top: 18px;}
+
+.opis_bateria {float: left;
+               width: 86%;
+               margin-top: 1%;}
+
+td {padding: 10px;}
+
+.zamuw {font-size: 450%;}
+
+a.zamow_a {padding: 20px;
+           font-size: 30px;
+           border-radius: 200px;}
+
+.tytul_dostawa {font-size: 250%;}
+
+.logo_dostawa {width: 20%;
+               position: relative;
+               bottom: 15px;
+               left: 4.3%;}
+
+.opis_dostawa {width: 80%;
+               margin-top: 1%;
+               font-size: 110%;}
+
+.tytul_gwarancja {font-size: 250%;}
+
+.opis_gwarancja {font-size: 110%;}
+
+.logo_gwarancja {width: 15%;
+                 position: relative;
+                 left: 1.5%;
+                 margin-top: -30px;}
+
+#pasek {height: 50px;
+        border-radius: 200px;
+        margin-top: 4%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: larger;}
+
+.pasek1 {position: relative;
+         top: 15px;}
+
+.test2:hover {font-size: large;
+               color: black;}
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1366px) /* LAPTOP 1366x768 DONE */
+{
+.logoatom {width: 25%;
+           float: left;}
+
+.napis {float: left;
+        position: absolute;
+        left: 38%;
+        top: 100px;
+        font-size: 500%;}
+
+.opis_air {font-size: 240%;
+           margin-top: 3%;}
+
+.tytul_4K {float: left;
+           font-size: 200%;
+           margin-top: 2%;}
+
+.logo_4K {width: 160px;
+          float: right;
+          position: relative;
+          top: 45px;}
+
+.opis_4K {float: left;
+          width: 84%;
+          margin-top: 1%;}
+
+.tytul_netflix {float: left;
+                font-size: 200%;}
+
+.logo_netflix {width: 260px;
+               float: right;
+               position: relative;
+               top: 25px;
+               left: 55px;}
+
+.opis_netflix {float: left;
+               width: 77%;
+               margin-top: 1%;}
+
+.tytul_bateria {float: left;
+                font-size: 200%;}
+
+.logo_bateria {width: 160px;
+               position: relative;
+               float: right;
+               top: 18px;
+               left: 15px;}
+
+.opis_bateria {float: left;
+               width: 86%;
+               margin-top: 1%;}
+
+td {padding: 15px;}
+
+.zamuw {font-size: 450%;}
+
+a.zamow_a {padding: 20px;
+           font-size: 40px;
+           border-radius: 200px;}
+
+.tytul_dostawa {font-size: 250%;}
+
+.logo_dostawa {width: 15%;}
+
+.opis_dostawa {width: 85%;
+               margin-top: 1%;
+               font-size: 110%;}
+
+.tytul_gwarancja {font-size: 250%;}
+
+.opis_gwarancja {font-size: 110%;}
+
+.logo_gwarancja {width: 12%;
+                 position: relative;
+                 left: -1.5%;}
+
+#pasek {height: 50px;
+        border-radius: 200px;
+        margin-top: 4%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: larger;}
+
+.pasek1 {position: relative;
+         top: 15px;}
+
+.test2:hover {font-size: large;
+               color: black;}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) /* LAPTOP DONE */
+{
+.logoatom {width: 25%;
+           float: left;}
+
+.napis {float: left;
+        position: absolute;
+        left: 36%;
+        top: 65px;
+        font-size: 400%;}
+
+.opis_air {font-size: 180%;
+           margin-top: 3%;}
+
+.tytul_4K {float: left;
+           font-size: 150%;
+           margin-top: 2%;}
+
+.logo_4K {width: 160px;
+          float: right;
+          position: relative;
+          top: 30px;}
+
+.opis_4K {float: left;
+          width: 80%;
+          margin-top: 1%;}
+
+.tytul_netflix {float: left;
+                font-size: 150%;}
+
+.logo_netflix {width: 260px;
+               float: right;
+               position: relative;
+               top: -15px;
+               left: 55px;}
+
+.opis_netflix {float: left;
+               width: 70%;
+               margin-top: 1%;}
+
+.tytul_bateria {float: left;
+                font-size: 150%;}
+
+.logo_bateria {width: 160px;
+               position: relative;
+               float: right;
+               top: 15px;
+               left: 10px;}
+
+.opis_bateria {float: left;
+               width: 81%;
+               margin-top: 1%;}
+
+td {padding: 10px;}
+
+.zamuw {font-size: 350%;}
+
+a.zamow_a {padding: 20px;
+           font-size: 30px;
+           border-radius: 200px;}
+
+.tytul_dostawa {font-size: 200%;}
+
+.logo_dostawa {width: 20%;}
+
+.opis_dostawa {width: 75%;
+               margin-top: 1%;
+               font-size: 110%;}
+
+.tytul_gwarancja {font-size: 200%;}
+
+.logo_gwarancja {width: 15%;
+                 position: relative;
+                 right: 1.5%;}
+
+.opis_gwarancja {width: 75%;
+                 font-size: 110%;}
+
+#pasek {height: 40px;
+        border-radius: 200px;
+        margin-top: 4%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: 100%;}
+
+.pasek1 {position: relative;
+         top: 10px;}
+
+.test2:hover {font-size: 80%;
+               color: black;}
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) /* TABLET DONE */
+{
+.logoatom {width: 25%;
+           float: left;}
+
+.napis {float: left;
+        position: absolute;
+        left: 40%;
+        top: 45px;
+        font-size: 300%;}
+
+.opis_air {font-size: 130%;
+           margin-top: 3%;}
+
+.tytul_4K {float: left;
+           font-size: 100%;
+           margin-top: 2%;}
+
+.logo_4K {width: 110px;
+          float: right;
+          position: relative;
+          top: 25px;}
+
+.opis_4K {float: left;
+          width: 80%;
+          margin-top: 1%;
+          font-size: 70%;}
+
+.tytul_netflix {float: left;
+                font-size: 100%;}
+
+.logo_netflix {width: 160px;
+               float: right;
+               position: relative;
+               top: 10px;
+               left: 26px;}
+
+.opis_netflix {float: left;
+               width: 75%;
+               margin-top: 1%;
+               font-size: 70%;}
+
+.tytul_bateria {float: left;
+                font-size: 100%;}
+
+.logo_bateria {width: 110px;
+               position: relative;
+               float: right;
+               top: 5px;
+               left: 4px;}
+
+.opis_bateria {float: left;
+               width: 80%;
+               margin-top: 1%;
+               font-size: 70%;}
+
+td {padding: 5px;
+    border: 1.5px solid white;}
+
+table {border: 1.5px solid white;}
+
+.zamuw {font-size: 250%;}
+
+a.zamow_a {padding: 15px;
+           font-size: 25px;
+           border-radius: 200px;
+           position: relative;
+           right: 15px;}
+
+.tytul_dostawa {font-size: 150%;}
+
+.logo_dostawa {width: 25%;}
+
+.opis_dostawa {width: 75%;
+               margin-top: 1%;
+               font-size: 90%;}
+
+.tytul_gwarancja {font-size: 150%;}
+
+.logo_gwarancja {width: 20%;
+                 position: relative;
+                 right: 15px;}
+
+.opis_gwarancja {width: 75%;
+                 font-size: 90%;}
+
+#pasek {height: 40px;
+        border-radius: 200px;
+        margin-top: 4%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: 100%;}
+
+.pasek1 {position: relative;
+         top: 10px;}
+
+.test2:hover {font-size: 80%;
+               color: black;}
+}
+
+@media screen and (min-width: 376px ) and (max-width: 425px) /* MOBILE L DONE */
+{
+#tresc2 {margin-top: 6%;}
+
+#tresc3 {margin-left: 0%;
+         margin-right: 0%;
+         margin-top: 6%;
+         font-size: 60%;}
+
+#tresc4 {margin-top: 6%;}
+
+.logoatom {width: 50%;
+           margin-left: 25%;
+           margin-right: 30%;
+           clear: both;}
+
+.napis {position: absolute;
+        left: 29%;
+        top: 150px;
+        font-size: 275%;}
+
+.airzdj {margin-top: 25%;
+         width: 85%;
+         position: relative;
+         right: 4.5%;}
+
+.opis_air {text-align: center;
+           font-size: 125%;}
+
+.tytul_4K {font-size: 140%;
+           text-align: center;}
+
+.logo_4K {width: 200px;
+          position: relative;
+          left: 85px;
+          margin-bottom: 15px;
+          margin-top: 15px;}
+
+.opis_4K {font-size: 70%;
+          text-align: center;}
+
+.netflix {margin-top: 6%;}
+
+.tytul_netflix {font-size: 140%;
+                text-align: center;}
+
+.logo_netflix {width: 70%;
+               position: relative;
+               left: 13.5%;
+               margin-top: 4%;
+               margin-bottom: 4%;}
+
+.opis_netflix {font-size: 70%;
+               text-align: center;}
+
+.bateria {margin-top: 6%;}
+
+.tytul_bateria {font-size: 140%;
+                text-align: center;}
+
+.logo_bateria {width: 40%;
+               position: relative;
+               left: 30%;
+               margin-top: 4%;
+               margin-bottom: 4%;}
+
+.opis_bateria {font-size: 70%;
+               text-align: center;}
+
+td {padding: 5px;
+    border: 1.5px solid white;}
+
+table {border: 1.5px solid white;}
+
+.zamow {font-size: 305%;}
+
+.zamuw {margin-bottom: 6%;}
+
+a.zamow_a {padding: 15px;
+           font-size: 65%;
+           border-radius: 200px;
+           position: relative;
+           right: 22.5%;}
+
+.dostawa {margin-top: 6%;}
+
+.tytul_dostawa {font-size: 100%;}
+
+.logo_dostawa {width: 25%;}
+
+.opis_dostawa {width: 75%;
+               margin-top: 1%;
+               font-size: 70%;}
+
+.gwarancja {margin-top: 6%;}
+
+.tytul_gwarancja {font-size: 100%;}
+
+.logo_gwarancja {width: 20%;
+                 position: relative;
+                 right: 2.5%;}
+
+.opis_gwarancja {width: 75%;
+                 font-size: 70%;}
+
+#pasek {height: 25px;
+        border-radius: 200px;
+        margin-top: 6%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: 70%;}
+
+.pasek1 {position: relative;
+         top: 6px;}
+
+.test2:hover {font-size: 80%;
+               color: black;}
+}
+
+@media screen and (min-width: 321px ) and (max-width: 375px) /* MOBILE M DONE */
+{
+#tresc2 {margin-top: 6%;}
+
+#tresc3 {margin-left: 0%;
+         margin-right: 0%;
+         margin-top: 6%;
+         font-size: 60%;}
+
+#tresc4 {margin-top: 6%;}
+
+.logoatom {width: 70%;
+           margin-left: 17.5%;
+           clear: both;}
+
+.napis {position: absolute;
+        left: 22.5%;
+        font-size: 325%;}
+
+.airzdj {margin-top: 25%;
+         width: 85%;
+         position: relative;
+         right: 4.5%;}
+
+.opis_air {text-align: center;
+           font-size: 125%;}
+
+.tytul_4K {font-size: 140%;
+           text-align: center;}
+
+.logo_4K {width: 60%;
+          position: relative;
+          left: 21.5%;
+          margin-bottom: 4%;
+          margin-top: 4%;}
+
+.opis_4K {font-size: 70%;
+          text-align: center;}
+
+.netflix {margin-top: 6%;}
+
+.tytul_netflix {font-size: 140%;
+                text-align: center;}
+
+.logo_netflix {width: 70%;
+               position: relative;
+               left: 15%;
+               margin-top: 4%;
+               margin-bottom: 4%;}
+
+.opis_netflix {font-size: 70%;
+               text-align: center;}
+
+.bateria {margin-top: 6%;}
+
+.tytul_bateria {font-size: 140%;
+                text-align: center;}
+
+.logo_bateria {width: 40%;
+               position: relative;
+               left: 30%;
+               margin-top: 4%;
+               margin-bottom: 4%;}
+
+.opis_bateria {font-size: 70%;
+               text-align: center;}
+
+td {padding: 5px;
+    border: 1.5px solid white;}
+
+table {border: 1.5px solid white;}
+
+.zamow {font-size: 310%;}
+
+.zamuw {margin-bottom: 6%;
+        font-size: 90%;}
+
+a.zamow_a {padding: 15px;
+           font-size: 55%;
+           border-radius: 200px;
+           position: relative;
+           right: 22.5%;}
+
+.dostawa {margin-top: 6%;}
+
+.tytul_dostawa {font-size: 100%;}
+
+.logo_dostawa {width: 25%;}
+
+.opis_dostawa {width: 75%;
+               margin-top: 1%;
+               font-size: 70%;}
+
+.gwarancja {margin-top: 6%;}
+
+.tytul_gwarancja {font-size: 100%;}
+
+.logo_gwarancja {width: 20%;
+                 position: relative;
+                 right: 2.5%;}
+
+.opis_gwarancja {width: 75%;
+                 font-size: 70%;}
+
+#pasek {height: 25px;
+        border-radius: 200px;
+        margin-top: 6%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: 70%;}
+
+.pasek1 {position: relative;
+         top: 6px;}
+
+.test2:hover {font-size: 80%;
+               color: black;}
+}
+
+@media screen and (min-width: 10px ) and (max-width: 320px) /* MOBILE S DONE */
+{
+#tresc2 {margin-top: 6%;}
+
+#tresc3 {margin-left: 0%;
+         margin-right: 0%;
+         margin-top: 6%;
+         font-size: 60%;}
+
+#tresc4 {margin-top: 6%;}
+
+.logoatom {width: 70%;
+           margin-left: 17.5%;
+           clear: both;}
+
+.napis {position: absolute;
+        left: 22.5%;
+        font-size: 270%;}
+
+.airzdj {margin-top: 25%;
+         width: 85%;
+         position: relative;
+         right: 4.5%;}
+
+.opis_air {text-align: center;
+           font-size: 125%;}
+
+.tytul_4K {font-size: 140%;
+           text-align: center;}
+
+.logo_4K {width: 60%;
+          position: relative;
+          left: 21.5%;
+          margin-bottom: 4%;
+          margin-top: 4%;}
+
+.opis_4K {font-size: 70%;
+          text-align: center;}
+
+.netflix {margin-top: 6%;}
+
+.tytul_netflix {font-size: 140%;
+                text-align: center;}
+
+.logo_netflix {width: 70%;
+               position: relative;
+               left: 15%;
+               margin-top: 4%;
+               margin-bottom: 4%;}
+
+.opis_netflix {font-size: 70%;
+               text-align: center;}
+
+.bateria {margin-top: 6%;}
+
+.tytul_bateria {font-size: 140%;
+                text-align: center;}
+
+.logo_bateria {width: 40%;
+               position: relative;
+               left: 30%;
+               margin-top: 4%;
+               margin-bottom: 4%;}
+
+.opis_bateria {font-size: 70%;
+               text-align: center;}
+
+td {padding: 5px;
+    border: 1.5px solid white;}
+
+table {border: 1.5px solid white;}
+
+.zamow {font-size: 260%;}
+
+.zamuw {margin-bottom: 6%;
+        font-size: 90%;}
+
+a.zamow_a {padding: 15px;
+           font-size: 55%;
+           border-radius: 200px;
+           position: relative;
+           right: 22.5%;}
+
+.dostawa {margin-top: 6%;}
+
+.tytul_dostawa {font-size: 100%;}
+
+.logo_dostawa {width: 25%;}
+
+.opis_dostawa {width: 75%;
+               margin-top: 1%;
+               font-size: 70%;}
+
+.gwarancja {margin-top: 6%;}
+
+.tytul_gwarancja {font-size: 100%;}
+
+.logo_gwarancja {width: 20%;
+                 position: relative;
+                 right: 2.5%;}
+
+.opis_gwarancja {width: 75%;
+                 font-size: 70%;}
+
+#pasek {height: 25px;
+        border-radius: 200px;
+        margin-top: 6%;
+        justify-content: space-around;
+        display: inline-flex;
+        font-size: 70%;}
+
+.pasek1 {position: relative;
+         top: 6px;}
+
+.test2:hover {font-size: 80%;
+               color: black;}
+}

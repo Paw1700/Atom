@@ -1,0 +1,170 @@
+body {font-family: 'Muli', sans-serif;
+      -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+      background-color: black;
+      color: white;}
+
+.logo {float:left;      /* logo */
+       margin-left:5%;
+	   margin-top:3%;
+	   width:150px;
+	   height:150px;}
+
+.gamerlogo {width:100%;}
+
+.gamerzdj {clear:both;
+           width:75%;}
+		   
+.head {height:215px;}
+
+.prawy{float:right;
+       margin-right:5%;
+	   margin-top:3%;
+	   width:150px;
+	   height:150px;}
+	   
+.napis {width: 100%;
+        font-size: 50px;} /* logo */
+			
+		
+.tresc {    /* tresc*/
+        margin-top: 2%;
+        margin-bottom: 2%;}
+
+.opis_gamer {height: 120px;
+             margin-left: 3%;
+             margin-right: 3%;
+			 text-align: center;
+			 font-size: 30px;}
+			 
+.herze {margin-bottom: 65px;
+        margin-left: 7%;
+        margin-right: 7%;
+		margin-top: 2%;}
+		
+.tytul_herze {height:12px;
+              font-size: 20px;}
+		
+		
+.logo_144hz {width: 170px;
+             float: right;
+             margin-top: -2.5%;
+             margin-left: 1%;}
+			 
+.opis_herze {width: 85%;}
+
+.chlodzenie {margin-bottom: 65px;
+             margin-left: 7%;
+             margin-right: 7%;
+		     margin-top: 2%;}
+			 
+.tytul_chlodzenie {height:12px;
+                   font-size: 20px;}
+
+.logo_chlodzenie {width: 160px;
+                  height: 160px;
+                  float: right;
+                  margin-top: -5%;}
+
+.opis_chlodzenie {width: 85%;}			 
+			 
+			 
+.dzwiek {margin-bottom: 65px;
+         margin-left: 7%;
+         margin-right: 7%;
+		     margin-top: 2%;}
+
+.tytul_dzwiek {height:12px;
+               font-size: 19px;}
+
+.logo_dzwiek {width: 230px;
+              height: 180px;
+              float: right;
+              margin-top: -4%;
+              margin-right: -2%;
+              margin-left: 1%;}	
+
+.opis_dzwiek {width: 85%;}   /*tresc*/
+
+.konfiguracja {width: 90%;
+               margin-left: 5%;
+               margin-right: 5%;
+               margin-bottom: 3%;
+               border-color: #333333;}
+
+.zamow {clear: both;}
+               
+.zamow_tresc {margin-left:8%;
+        float: left;
+        font-size: 38px;}
+
+.tabela {margin-bottom: 4%;}
+
+.zamow_a {text-decoration: none;
+          color: white;
+          font-size: 30px;
+          position: relative;
+          float: right;
+          right: 8%;
+          border: 2px solid white;
+          border-radius: 200px;
+          padding: 17px;
+          transition-duration: 0.25s;}
+
+
+.zamow_a:hover {background-color: white;
+                color: black;}
+
+.dlaczego_zamow {clear: both;
+                 margin-top: 10%;
+                 margin-left: 7%;
+                 margin-right: 7%;
+                 margin-bottom: 65px;}
+
+.tytul_dostawa {font-size: 19px;}
+
+.opis_dostawa {width: 85%;
+               position: relative; top: 20px;}
+
+.logo_dostawa {width: 186px;
+               height: 106px;
+               float: right;
+               margin-right: 1%;
+               margin-left: 1%;}
+
+.tytul_gwarancja {margin-top: 10%;
+                  font-size: 19px;}
+
+.logo_gwarancja {width: 150px;
+                 float: right;
+                 margin-right: 35px;}
+
+.opis_gwarancja {margin-top: 2%;
+                 width: 85%;}
+
+.test {display: inline;
+       margin-left: 11vw;
+       margin-right: 11vw;}
+
+.test1 {display: block;
+        clear: both;
+        background-color: white;
+        color: black;
+        width: 97%;
+        position: relative; top: 40px; right: 7px;
+        padding: 25px;}
+
+a.test2 {text-decoration: none;}
+a.test2:link {color: black;}
+a.test2:visited {color: black;}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+			 
+			 
