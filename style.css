@@ -1,21 +1,8 @@
-body {font-family: 'Muli', sans-serif;
-      -webkit-animation: fadein 1.2s; /* Safari, Chrome and Opera > 12.1 */}
-
-.opis {margin-left:5%;
-       margin-right:5%;}
-	   
-.laptop {float: right;
-         width: 50%;}
-
-.jaki_laptop {margin-left:5%;
-              margin-right:5%;
-			  float: left;}
-			  
-.jaki {}
-
-.test {float: left;
-       width:40%;
-	   margin-top: 5%;}
+body {background-color: black;
+      font-family: 'Muli', sans-serif;
+      margin: 0px 0px;
+      -webkit-animation: fadein 1.2s;
+      color: white;}
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -26,4 +13,533 @@ body {font-family: 'Muli', sans-serif;
     to   { opacity: 1; }
 }
 
-	   
+div#container {width: 100%;
+               height: 100%;}
+
+div#version {position: fixed;
+             bottom: 0%;}
+
+div#apro {clear: both;
+          overflow: hidden;
+          padding: 0;}
+
+div#agamer {clear: both;
+            overflow: hidden;
+            padding: 0;}
+
+div#aair {clear: both;
+          overflow: hidden;
+          padding: 0;}
+
+img.apro_png {width: 100%;
+              transition-duration: 0.5s;}
+
+img.apro_png:hover {opacity: 0.75;
+                    -webkit-transform: scale(1.1);}
+
+img.agamer_png {width: 100%;
+                transition-duration: 0.5s;}
+
+img.agamer_png:hover {opacity: 0.75;
+                      -webkit-transform: scale(1.1);}
+
+img.aair_png {width: 100%;
+              transition-duration: 0.5s;}
+
+img.aair_png:hover {opacity: 0.75;
+                    -webkit-transform: scale(1.1);}
+
+a.link {text-decoration: none;
+        color: white;
+        transition-duration: 0.5s;
+        opacity: 0.5;}
+
+a.link:hover {opacity: 1;}
+
+a.apro_link {text-decoration: none;
+             color: white;}
+
+a.agamer_link {text-decoration: none;
+               color: white;}
+
+a.aair_link {text-decoration: none;
+             color: white;}
+
+
+@media screen and (min-width: 1441px) and (max-width: 2560px) /* 4K */
+{}
+
+@media screen and (min-width: 1920px) and (max-width: 1920px) /* DESKTOP FULL HD */
+{}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) /* LAPTOP L  DEAFAULT DONE */
+{
+    div#naglowek {width: 20%;
+                  height: 240px;
+                  position: relative;
+                  left: 40%;}
+
+    div#tytul {font-size: 350%;}
+
+    div#apro {margin-top: 2%;
+              height: 400px;}
+
+    div.apro_napis {position: relative;
+                    left: 3%;
+                    bottom: 250px;
+                    font-size: 350%;
+                    width: 280px;}
+
+    div.apro_cena {position: relative;
+                   bottom: 325px;
+                   font-size: 350%;
+                   left: 73%;
+                   width: 280px;}
+
+    div#agamer {height: 400px;}
+
+    div.agamer_napis {position: relative;
+                      bottom: 250px;
+                      font-size: 350%;
+                      left: 3%;
+                      width: 360px;}
+
+    div.agamer_cena {position: relative;
+                    bottom: 325px;
+                    font-size: 350%;
+                    left: 73%;
+                    width: 280px;}
+
+    div#aair {height: 400px;}
+
+    div.aair_napis {position: relative;
+                      bottom: 250px;
+                      font-size: 350%;
+                      left: 3%;
+                      width: 280px;}
+
+    div.aair_cena {position: relative;
+                    bottom: 325px;
+                    font-size: 350%;
+                    left: 73%;
+                    width: 280px;}
+
+    
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1366px) /* LAPTOP 1366x768 DONE */
+{
+    div#naglowek {width: 20%;
+                  height: 240px;
+                  position: relative;
+                  left: 40%;}
+
+    div#tytul {font-size: 350%;}
+
+    div#apro {margin-top: 2%;
+              height: 378px;}
+
+    div.apro_napis {position: relative;
+                    left: 3%;
+                    bottom: 250px;
+                    font-size: 350%;
+                    width: 280px;}
+
+    div.apro_cena {position: relative;
+                   bottom: 325px;
+                   font-size: 350%;
+                   left: 73%;
+                   width: 280px;}
+
+    div#agamer {height: 378px;}
+
+    div.agamer_napis {position: relative;
+                      bottom: 250px;
+                      font-size: 350%;
+                      left: 3%;
+                      width: 360px;}
+
+    div.agamer_cena {position: relative;
+                    bottom: 325px;
+                    font-size: 350%;
+                    left: 73%;
+                    width: 280px;}
+
+    div#aair {height: 378px;}
+
+    div.aair_napis {position: relative;
+                      bottom: 250px;
+                      font-size: 350%;
+                      left: 3%;
+                      width: 280px;}
+
+    div.aair_cena {position: relative;
+                    bottom: 325px;
+                    font-size: 350%;
+                    left: 73%;
+                    width: 280px;}
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1280px) /* LAPTOP 1280x800 DONE */
+{
+    div#naglowek {width: 20%;
+                  height: 240px;
+                  position: relative;
+                  left: 40%;}
+
+    div#tytul {font-size: 350%;}
+
+    div#apro {margin-top: 2%;
+              height: 355px;}
+
+    div.apro_napis {position: relative;
+                    left: 3%;
+                    bottom: 250px;
+                    font-size: 350%;
+                    width: 280px;}
+
+    div.apro_cena {position: relative;
+                   bottom: 325px;
+                   font-size: 350%;
+                   left: 73%;
+                   width: 280px;}
+
+    div#agamer {height: 355px;}
+
+    div.agamer_napis {position: relative;
+                      bottom: 250px;
+                      font-size: 350%;
+                      left: 3%;
+                      width: 360px;}
+
+    div.agamer_cena {position: relative;
+                    bottom: 325px;
+                    font-size: 350%;
+                    left: 73%;
+                    width: 280px;}
+
+    div#aair {height: 355px;}
+
+    div.aair_napis {position: relative;
+                      bottom: 250px;
+                      font-size: 350%;
+                      left: 3%;
+                      width: 280px;}
+
+    div.aair_cena {position: relative;
+                    bottom: 325px;
+                    font-size: 350%;
+                    left: 73%;
+                    width: 280px;}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) /* LAPTOP DONE */
+{
+    div#naglowek {width: 26%;
+                  height: 240px;
+                  position: relative;
+                  left: 36.5%;}
+
+    div#tytul {font-size: 350%;}
+
+    div#apro {margin-top: 2%;
+              height: 287px;}
+
+    div.apro_napis {position: relative;
+                    left: 3%;
+                    bottom: 200px;
+                    font-size: 300%;
+                    width: 210px;}
+
+    div.apro_cena {position: relative;
+                   bottom: 255px;
+                   font-size: 300%;
+                   left: 73%;
+                   width: 240px;}
+
+    div#agamer {height: 287px;}
+
+    div.agamer_napis {position: relative;
+                      left: 3%;
+                      bottom: 200px;
+                      font-size: 300%;
+                      width: 290px;}
+
+    div.agamer_cena {position: relative;
+                     bottom: 255px;
+                     font-size: 300%;
+                     left: 73%;
+                     width: 240px;}
+
+    div#aair {height: 287px;}
+
+    div.aair_napis {position: relative;
+                      left: 3%;
+                      bottom: 200px;
+                      font-size: 300%;
+                      width: 210px;}
+
+    div.aair_cena {position: relative;
+                   bottom: 255px;
+                   font-size: 300%;
+                   left: 73%;
+                   width: 240px;}
+
+    div#version {font-size: 75%;}
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) /* TABLET DONE */
+{
+    div#naglowek {width: 26%;
+                  height: 180px;
+                  position: relative;
+                  left: 36.5%;}
+
+    div#tytul {font-size: 300%;}
+
+    div#apro {margin-top: 2%;
+              height: 215px;}
+
+    div.apro_napis {position: relative;
+                    left: 3%;
+                    bottom: 150px;
+                    font-size: 250%;
+                    width: 180px;}
+
+    div.apro_cena {position: relative;
+                   bottom: 205px;
+                   font-size: 250%;
+                   left: 73%;
+                   width: 200px;}
+
+    div#agamer {height: 215px;}
+
+    div.agamer_napis {position: relative;
+                    left: 3%;
+                    bottom: 150px;
+                    font-size: 250%;
+                    width: 240px;}
+
+    div.agamer_cena {position: relative;
+                   bottom: 205px;
+                   font-size: 250%;
+                   left: 73%;
+                   width: 200px;}
+
+    div#aair {height: 215px;}
+
+    div.aair_napis {position: relative;
+                    left: 3%;
+                    bottom: 150px;
+                    font-size: 250%;
+                    width: 180px;}
+
+    div.aair_cena {position: relative;
+                   bottom: 205px;
+                   font-size: 250%;
+                   left: 73%;
+                   width: 200px;}
+
+    div#version {font-size: 75%;}
+}
+
+@media screen and (min-width: 376px ) and (max-width: 425px) /* MOBILE L DONE */
+{
+    div#naglowek {width: 26%;
+                  height: 100px;
+                  position: relative;
+                  left: 36.5%;}
+
+    div#tytul {font-size: 200%;}
+
+    div#apro {margin-top: 2%;
+              height: 160px;
+              background-color: #404040;}
+
+    img.apro_png {position: relative;
+                  top: 40px;}
+
+    div.apro_napis {position: relative;
+                    left: 3%;
+                    bottom: 110px;
+                    font-size: 150%;
+                    width: 110px;}
+
+    div.apro_cena {position: relative;
+                   bottom: 141px;
+                   font-size: 150%;
+                   left: 70%;
+                   width: 120px;}
+
+    div#agamer {height: 160px;
+                background-color: #9e0700;}
+
+    img.agamer_png {position: relative;
+                    top: 40px;}
+
+    div.agamer_napis {position: relative;
+                    left: 3%;
+                    bottom: 110px;
+                    font-size: 150%;
+                    width: 150px;}
+
+    div.agamer_cena {position: relative;
+                   bottom: 141px;
+                   font-size: 150%;
+                   left: 70%;
+                   width: 120px;}
+
+    div#aair {height: 160px;
+              background-color: #5ea1ff;}
+
+    img.aair_png {position: relative;
+                    top: 40px;}
+
+    div.aair_napis {position: relative;
+                    left: 3%;
+                    bottom: 110px;
+                    font-size: 150%;
+                    width: 110px;}
+
+    div.aair_cena {position: relative;
+                   bottom: 141px;
+                   font-size: 150%;
+                   left: 70%;
+                   width: 120px;}
+
+    div#version {font-size: 75%;}
+}
+
+@media screen and (min-width: 321px ) and (max-width: 375px) /* MOBILE M DONE */
+{
+    div#naglowek {width: 26%;
+                  height: 90px;
+                  position: relative;
+                  left: 36.5%;}
+
+    div#tytul {font-size: 180%;}
+
+    div#apro {margin-top: 2%;
+              height: 145px;
+              background-color: #404040;}
+
+    img.apro_png {position: relative;
+                  top: 40px;}
+
+    div.apro_napis {position: relative;
+                    left: 3%;
+                    bottom: 100px;
+                    font-size: 150%;
+                    width: 110px;}
+
+    div.apro_cena {position: relative;
+                   bottom: 131px;
+                   font-size: 150%;
+                   left: 65%;
+                   width: 120px;}
+
+    div#agamer {height: 160px;
+                background-color: #9e0700;}
+
+    img.agamer_png {position: relative;
+                    top: 40px;}
+
+    div.agamer_napis {position: relative;
+                    left: 3%;
+                    bottom: 100px;
+                    font-size: 150%;
+                    width: 150px;}
+
+    div.agamer_cena {position: relative;
+                   bottom: 131px;
+                   font-size: 150%;
+                   left: 65%;
+                   width: 120px;}
+
+    div#aair {height: 160px;
+              background-color: #5ea1ff;}
+
+    img.aair_png {position: relative;
+                    top: 40px;}
+
+    div.aair_napis {position: relative;
+                    left: 3%;
+                    bottom: 100px;
+                    font-size: 150%;
+                    width: 110px;}
+
+    div.aair_cena {position: relative;
+                   bottom: 131px;
+                   font-size: 150%;
+                   left: 65%;
+                   width: 120px;}
+
+    div#version {font-size: 75%;}
+}
+
+@media screen and (min-width: 10px ) and (max-width: 320px) /* MOBILE S */
+{
+    div#naglowek {width: 26%;
+                  height: 80px;
+                  position: relative;
+                  left: 36.5%;}
+
+    div#tytul {font-size: 160%;}
+
+    div#apro {margin-top: 2%;
+              height: 135px;
+              background-color: #404040;}
+
+    img.apro_png {position: relative;
+                  top: 40px;}
+
+    div.apro_napis {position: relative;
+                    left: 3%;
+                    bottom: 90px;
+                    font-size: 150%;
+                    width: 110px;}
+
+    div.apro_cena {position: relative;
+                   bottom: 121px;
+                   font-size: 150%;
+                   left: 60%;
+                   width: 120px;}
+
+    div#agamer {height: 135px;
+                background-color: #9e0700;}
+
+    img.agamer_png {position: relative;
+                    top: 40px;}
+
+    div.agamer_napis {position: relative;
+                    left: 3%;
+                    bottom: 90px;
+                    font-size: 150%;
+                    width: 150px;}
+
+    div.agamer_cena {position: relative;
+                   bottom: 121px;
+                   font-size: 150%;
+                   left: 60%;
+                   width: 120px;}
+
+    div#aair {height: 135px;
+              background-color: #5ea1ff;}
+
+    img.aair_png {position: relative;
+                    top: 40px;}
+
+    div.aair_napis {position: relative;
+                    left: 3%;
+                    bottom: 90px;
+                    font-size: 150%;
+                    width: 110px;}
+
+    div.aair_cena {position: relative;
+                   bottom: 121px;
+                   font-size: 150%;
+                   left: 60%;
+                   width: 120px;}
+
+    div#version {font-size: 75%;}
+}

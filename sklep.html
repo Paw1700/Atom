@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"/>
+<script>
+    var kwota=parseInt();
+    function licz()
+    {
+        p=document.getElementById("procesor");
+        f.kwota.value=parseInt(p.value);
+
+        k=document.getElementById("grafika");
+        f.kwota.value=parseInt(f.kwota.value)+parseInt(k.value);
+
+        rAM=document.getElementById("RAM");
+        f.kwota.value=parseInt(f.kwota.value)+parseInt(rAM.value);
+    }
+</script>
+</head>
+<body>
+   <form name="f">
+       Procesor
+       <select id="procesor">
+           <option value=500>i5 4200</option>
+           <option value=750>i7 4700</option>
+           <option value=1200>i9 4800</option>
+       </select>
+       <br/><br/>
+       Karta graficzna
+       <select id="grafika">
+           <option value=1200>RTX 2060</option>
+           <option value=1800>RTX 2070</option>
+           <option value=2500>RTX 2070 Super</option>
+       </select>
+       <br/><br/>
+       Pamięć RAM
+       <select id="RAM">
+           <option value=350>8 GB</option>
+           <option value=750>16 GB</option>
+           <option value=1200>32 GB</option>
+       </select>
+       <input type="button" value="Policz" onclick="licz()"/>
+       <output name="kwota"></output>
+   </form>
+</body>
+</html>
